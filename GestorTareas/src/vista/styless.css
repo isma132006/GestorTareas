@@ -1,0 +1,88 @@
+.color1 {color: #000d00;}
+.color2 {color: #133836;}
+.color3 {color: #377759;}
+.color4 {color: #a7bb82;}
+.color5 {color: #d8d8bd;}
+.color6 {color: #70a7a7}
+
+
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #d8d8bd; /* color5 */
+}
+
+
+.table-view {
+    -fx-background-color: #a7bb82;
+    -fx-border-color: #000d00;
+}
+
+.button {
+    -fx-background-color: #377759;; /* verde */
+    -fx-text-fill: #d8d8bd;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-border-radius:50% ;
+    -fx-border-color: #000d00; /* color de borde visible */
+    -fx-border-width: 3px;
+    -fx-background-radius: 20px;
+}
+
+#botonEliminar {
+    -fx-background-color: rgb(165, 49, 49);
+    -fx-text-fill: #d8d8bd;
+}
+#botonMostrarTodas{
+    -fx-background-color: #70a7a7;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* verde más oscuro al pasar el mouse */
+}
+#botonEliminar:hover {
+    -fx-background-color: #db1919; /* rojo más oscuro al pasar el mouse */
+}
+#botonMostrarTodas:hover {
+    -fx-background-color: #19aedb; /* rojo más oscuro al pasar el mouse */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #eee7df; /* color para filas impares */
+}
+
+.table-row-cell:even {
+    -fx-background-color: #cec4b9; /* color para filas pares */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #d8d8bd;
+    -fx-border-color: #133836;     /* color del borde que quieres */
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;        /* opcional, bordes redondeados */
+    -fx-text-fill: black;
+}
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: black;  /* fuerza el color del texto dentro de celdas seleccionadas */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #d4cbdb; /* color al pasar el mouse */
+    -fx-cursor: hand;             /* cambia el cursor a "mano" */
+}
+/*lol*/
+.text-field {
+    -fx-background-color: #f0e9dd;
+    -fx-text-fill: #333333;
+    -fx-border-color: #8d7b68;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 6px;
+    -fx-font-size: 14px;
+}
+
+
+
+
+
+
+
