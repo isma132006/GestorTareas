@@ -19,8 +19,7 @@ public class VentanaAgregarTarea extends Stage {
 
     public VentanaAgregarTarea(ObservableList<Tarea> listaTareas,GestorTareas<Tarea> gestor) {
         setTitle("Agregar Nueva Tarea");
-        // Aquí van tus controles: TextFields, DatePicker, ComboBox, etc.
-        // Ejemplo:
+
         Label lblTitulo = new Label("Título:");
         TextField campoTitulo = new TextField();
         campoTitulo.setPromptText("Titulo");
